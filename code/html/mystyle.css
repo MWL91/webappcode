@@ -1,0 +1,55 @@
+html {
+    background-color:#333;
+}
+
+h1 {
+    color:red;
+}
+
+#super {
+    font-weight: lighter;
+    color:blue;
+}
+
+.italic {
+    font-style: italic;
+}
+
+ol, ul {
+    list-style-type: disc;
+    display: inline;
+}
+
+ol li {
+    display: inline;
+}
+
+.lead-content {
+    font-size:200px;
+    margin: 50px 200px 10px 100px;
+}
+
+h2 + p {
+    color: white;
+}
+
+:visited {
+    color:coral;
+}
+
+a:hover {
+    color:#F0F000;
+    text-decoration: underline;
+}
+
+a:focus {
+    color: #FFFFFF;
+}
+
+ol ul a, li + li {
+    color:blue;
+}
+
+span {
+    color:green;
+}
