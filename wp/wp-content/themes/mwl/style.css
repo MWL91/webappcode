@@ -1,0 +1,37 @@
+/*
+Theme Name: MWL
+Author: WWW Application Class
+Author URI: https://lenkowski.net/
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mwl
+*/
+
+:root
+{
+    --contentMargin: 100px;
+}
+
+header {
+    margin-bottom: var(--contentMargin);
+}
+
+.logo {
+    height: 50px;
+}
+
+.has-text-align-right {
+    text-align: right;
+}
+
+.card-body .card-text
+{
+    min-height:100px;
+}
+
+.footer-space {
+    height:20px;
+    margin-top: var(--contentMargin);
+    background: rgb(230, 229, 229);
+}
